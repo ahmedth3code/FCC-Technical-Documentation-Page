@@ -5,3 +5,21 @@ h2 {
 #python_if_else {
     color: red;
 }
+
+.terminal,
+.code {
+    display: block;
+    width: max-content;
+    padding: 5px;
+    margin: 5px;
+}
+
+.terminal {
+    background-color: black;
+    color: lightgreen;
+}
+
+.code {
+    background-color: bisque;
+    border-left: 2px lightseagreen solid;
+}
