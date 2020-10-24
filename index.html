@@ -67,7 +67,7 @@
             <h3>Single line comments  </h3>
 
             <ul>
-                <li>Single line comments starts with a ‘#’ symbol.</li>
+                <li>Single line comments starts with a ‘#’ symbol.</li>
                 <code class="code">#This is a single line comment</code>
             </ul>
             
@@ -88,44 +88,343 @@
             </ul>
         </section>
 
-        <section class="main-section" id="print_statement">
-            <h2 class="section-heading">print statement</h2>
+        <section class="main-section" id="the_print_statement">
+            <h2 class="section-heading">the print statement</h2>
+
+            <p>The print statement is used to display information to users. It accepts one or more parameters separated by commas.</p>
+
+            <code class="code">print(“Hello”,”world”)</code>
+
+            <code class="output">>> Hello world</code>
         </section>
 
         <section class="main-section" id="python_variables">
             <h2 class="section-heading">python variables</h2>
+
+            <p>A variable is a name given data which can be used an manipulated by using that name.</p>
+
+            <h3>Defining variables</h3>
+
+            <p>When defining variable you should give it a name and a value. In the following way:</p>
+
+            <p>variableName = initialValue</p>
+
+            <code class="code">x = 34</code>
+
+            <h3>Naming Variable</h3>
+            
+            <p>When you name variables you should follow certain guidelines. The guidelines are mentioned below.</p> 
+
+            <ul>
+                <li>Python variables names can only contain uppercase letters (A-Z), lowercase letters (a-z), numbers (0-9) and underscore (_).</li>
+                <li>Variable names can not start with a number</li>
+                <li>Reserve words such as ‘print’ can not be used as a variable name.</li>
+                <li>Variable names are case sensitive.</li>
+            </ul>
+
+            <p><strong>Naming convention -</strong> There are two common ways variable names are written in python.</p>
+
+            <ul>
+                <li>Snake case - words are separated by an underscore (_). Ex: variable_name</li>
+                <li>Camel case - every now word is started with a capital letter. Ex: variableName</li>
+            </ul>
+
+            <h3>The assignment sign</h3>
+
+            <p>The assignment sign (=) is know as the equal sign in the field of mathematics. As explained earlier when you define a variable a value must be assigned to it and some times you might want to change the value of a variable after it’s initiation. In both cases we use the assignment sign to assign a value to variables.</p>
+
+            
+            <p>Value on the right side of the assignment sign will be assign to the variable which is located in the left side of the assignment sign.</p>
+
+            <code class="code">X = 56</code>
+            <code class="code">Y = 37</code>
+            <code class="code">X = 6</code>
         </section>
         
         <section class="main-section" id="python_data_types">
             <h2 class="section-heading">python data types</h2>
+
+            <p>Data type is an important concept to understand in programming. In python there are different data types. You can assign values of any data type to variables.</p>
+
+            <h3>String</h3>
+
+            <p>String data type refers to plain text. String values are surrounded by either single or double quotes.</p>
+
+            <code class="code">x = “Hello world”</code>
+            <code class="code">name = ‘peter’</code>
+            
+            
+            <h3>Integer</h3>
+
+            <p>Integer is number data types. Numbers of this data type don’t have decimal points.</p>
+            
+            <code class="code">x = 6</code>
+            <code class="code">y = -7</code>
+
+            
+            <h3>Float</h3>
+
+            <p>Float numbers have decimal points.</p>
+            
+            <code class="code">x = 3.5</code>
+            <code class="code">y = -9.34</code>
+
+            
+            
+            <h3>List</h3>
+            
+            <p>List allow us to assign more than one value to a single variable. Using square brackets ([ ]). You can assign values of different data types to a list.</p>
+            
+            <code class="code">x = [4, 8.32, “Home”]</code>            
+            
+            <p>In addition you can also declare an empty list.</p>            
+            
+            <code class="code">y = []</code>
+             
+            <p>You can access the values of the list using their index number. Index numbers starts from zero.</p>
+            
+            <code class="code">x = [4, 8.32, “Home”]</code>
+            <code class="code">x[0]</code>
+            <code class="output">>>4</code>
+            <code class="code">x[2]</code>
+            <code class="output">>>"Home"</code>
+            
+            <p>You can replace an old value in a list with a new one. You can do this by referring to the value using it’s index and assigning a new value.</p>
+            
+            <code class="code">x = [4, 8.32, “Home”]</code>
+            <code class="code">x[1] = “New”</code>
+            <code class="code">print(x)</code>
+            <code class="output">>>[4,”New”,”Home”]</code> 
+
+            <h3>Tuples</h3>
+
+            <p>Like lists you can store one or more values in it. The main difference are they use round brackets ( () ) instead of square brackets ([]) and they are unchangeable, you are stuck with the initial values.</p>
+            
+            <code class="code">daysOfTheWeek = (‘Monday’, ‘Tuesday’, ‘Wednesday’, ‘Thursday’, ‘Friday’, ‘Saturday’, ‘Sunday’)</code>
+
+            <p>You can access the tuple items using their index just like we did with the list.</p>
+            
+            <code class="code">daysOfTheWeek[3]</code>
+            <code class="output">>>‘Thursday’ </code>
+            
+
+            <h3>Dictionaries</h3>
+
+            <p>Dictionary is another data collections in python. But it unlike list and tuple the data are stored using a key, value pair. Dictionaries are written with curly brackets ({}).</p>
+
+            <code class="code"></code>
+            
+            <p>dictName = {key1 : value1, key2 : value2, …….}</p>            
+            
+            <code class="code">person1 = {“name” :”Kevin”, “age”: 34,” dob” : 1986}</code>
+            
+            <p>You can access dictionary values by using their names within a square bracket.</p>
+            
+            <code class="code">Person1[“dob”]</code>
+            <code class="output">>>1986</code>
         </section>
 
         <section class="main-section" id="python_casting">
             <h2 class="section-heading">python casting</h2>
-        </section>
 
-        <section class="main-section" id="python_strings">
-            <h2 class="section-heading">python strings</h2>
+            <p>In python you can change a value from one data type to another this process is called type casting. This is done by using the following functions.</p>
+
+            <ul>
+                <li>int()</li>
+                <li>float()</li>
+                <li>str()</li>
+            </ul>
+            
+
+            <h3>int()</h3>
+
+            <p>This function turns a float (by rounding it down to the closest integer) or a string (if the string represent an integer or a float) in to integer.</p>
+            
+            <code class="code">int(2.7)</code>
+            <code class="output">>>2</code>
+            <code class="code">int(“3”)</code>
+            <code class="output">>>3</code>
+            
+
+            <h3>float()</h3>
+
+            <p>This turns an integers or a string (if the string represent an integer or a float) in to float.</p>
+            
+            <code class="code">float(3)</code>
+            <code class="output">>>3.0</code>
+            <code class="code">float(“4”)</code>
+            <code class="output">>>4.0</code>
+             
+            
+            
+            <h3>str()</h3>
+
+            <p>This turns an integer or a float in to string.</p>
+            
+            <code class="code">str(3)</code>
+            <code class="output">>>“3”</code>
+            <code class="code">str(4.6)</code>
+            <code class="output">>>“4.6”</code>
         </section>
 
         <section class="main-section" id="python_booleans">
             <h2 class="section-heading">python booleans</h2>
+
+            <p>Boolean means either True or False value. Even though they look simple, they are important to many operations in python such as conditions and loops which we will explore later.</p>
+
+            <p>Many values are True by default. Any value that has a content in it is a True value. There are a few exceptions: Empty string, the number “0”, empty list, empty tuple and empty dictionary are False values.</p>
         </section>
 
-        <section class="main-section" id="python_operations">
-            <h2 class="section-heading">python operations</h2>
-        </section>
+        <section class="main-section" id="python_operators">
+            <h2 class="section-heading">python operators</h2>
 
-        <section class="main-section" id="python_lists">
-            <h2 class="section-heading">python lists</h2>
-        </section>
+            <p>Python comes with many operators perform operations on variables and values. They can be categorized in to several groups. We will look in to only three different groups of operators in this documentation.</p>
 
-        <section class="main-section" id="python_tuple">
-            <h2 class="section-heading">python tuple</h2>
-        </section>
+            <h3>Python arithmetic operators</h3>
 
-        <section class="main-section" id="python_dictionaries">
-            <h2 class="section-heading">python dictionaries</h2>
+            <p>Arithmetic operators are used to perform arithmetic operation on values and variables.</p>
+
+            <table>
+                <tr>
+                    <th>Operator</th>
+                    <th>Name</th>
+                    <th>Example</th>
+                </tr>
+
+                <tr>
+                    <td>+</td>
+                    <td>Addition</td>
+                    <td>x + y</td>
+                </tr>
+                <tr>
+                    <td>-</td>
+                    <td>Substraction</td>
+                    <td>x - y</td>
+                </tr>
+                <tr>
+                    <td>*</td>
+                    <td>Multiplication</td>
+                    <td>x * y</td>
+                </tr>
+                <tr>
+                    <td>/</td>
+                    <td>Divition</td>
+                    <td>x / y</td>
+                </tr>
+                <tr>
+                    <td>%</td>
+                    <td>Modulus</td>
+                    <td>x % y</td>
+                </tr>
+                <tr>
+                    <td>**</td>
+                    <td>Exponentation</td>
+                    <td>x ** y</td>
+                </tr>
+                <tr>
+                    <td>//</td>
+                    <td>Floor division</td>
+                    <td>x // y</td>
+                </tr>
+            </table>
+
+            <h3>Python assignment operators</h3>
+
+            <p>Assignment operators are used to assign values to variables.</p>
+
+            <table>
+                <tr>
+                    <th>Operator</th>
+                    <th>Example</th>
+                    <th>Same as</th>
+                </tr>
+
+                <tr>
+                    <td>=</td>
+                    <td>x = 3</td>
+                    <td>x =3</td>
+                </tr>                
+                <tr>
+                    <td>+=</td>
+                    <td>x += 3</td>
+                    <td>x = x + 3</td>
+                </tr>
+                <tr>
+                    <td>-=</td>
+                    <td>x -= 3</td>
+                    <td>x = x -3</td>
+                </tr>
+                <tr>
+                    <td>*=</td>
+                    <td>x *= 3</td>
+                    <td>x = x *3</td>
+                </tr>
+                <tr>
+                    <td>/=</td>
+                    <td>x /= 3</td>
+                    <td>x = x /3</td>
+                </tr>
+                <tr>
+                    <td>%=</td>
+                    <td>x %= 3</td>
+                    <td>x = x % 3</td>
+                </tr>
+                <tr>
+                    <td>**=</td>
+                    <td>x **= 3</td>
+                    <td>x = x ** 3</td>
+                </tr>
+                <tr>
+                    <td>//=</td>
+                    <td>x //= 3</td>
+                    <td>x = x // 3</td>
+                </tr>
+            </table>
+
+            <h3>Python comparison operators</h3>
+
+            <p>Comparison operators are used to compare two values or variables. When you compare two values or variables you will get ‘True’ or ‘False’ as result.</p>
+
+            <table>
+                <tr>
+                    <th>Operator</th>
+                    <th>Name</th>
+                    <th>Example</th>
+                </tr>
+
+                <tr>
+                    <td>==</td>
+                    <td>Equal</td>
+                    <td>x == y</td>
+                </tr>
+                <tr>
+                    <td>!=</td>
+                    <td>Not equal</td>
+                    <td>x != y</td>
+                </tr>
+                <tr>
+                    <td>&gt;</td>
+                    <td>Greater than</td>
+                    <td>x &gt; y</td>
+                </tr>
+                <tr>
+                    <td>&lt;</td>
+                    <td>Less than</td>
+                    <td>x &lt; y</td>
+                </tr>
+                <tr>
+                    <td>&gt;=</td>
+                    <td>Greater than or equal to</td>
+                    <td>x &gt;= y</td>
+                </tr>
+                <tr>
+                    <td>&lt;=</td>
+                    <td>Less than or equal to</td>
+                    <td>x &lt;= y</td>
+                </tr>
+            </table>
+
+            
         </section>
 
         <section class="main-section" id="python_if_else">
