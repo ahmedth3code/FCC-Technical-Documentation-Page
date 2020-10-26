@@ -429,14 +429,136 @@
 
         <section class="main-section" id="python_if_else">
             <h2 class="section-heading">python if else</h2>
+
+            <p>If statement allow your program to make decisions based on one or more conditions. If statement use the following structure.</p>
+
+            <p>if (condition):<br>
+            &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;code</p>
+
+            <code class="code">
+                a = 50<br>
+                b = 100<br>
+
+                if ( a <  b):<br>
+                &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;print(‘b is bigger than  a’)
+            </code>
+
+            <code class="output">>>‘b is bigger than a’</code>
+
+            <p>We get the output because our condition is true. We would not have gotten any out put if it was not true. </p>
+
+            <p>If you notice the explanation above the code is indented. Indentation is how you start a code block in python as we have done above, we have started an if block. </p>
+
+            <h3>Else</h3>
+
+            <p>We can also make our program execute a block of code if our condition is false. We us the keyword ‘else’ for it.</p>
+
+            <p>if (contition):<br>
+            &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;Code<br>
+            else:<br>
+            &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;Code</p>
+
+            <code class="code">
+                a = 150<br>
+                b = 100<br>
+
+                if ( a <  b):<br>
+                &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;print(‘b is bigger than a’)<br>
+                else:<br>
+                &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;print(‘a is bigger than b’)<br>
+            </code>
+
+            <code class="output">>> ‘a is bigger than b’</code>
+
+            <p>In this example the program evaluated the condition to be false so it executed the code in the else block.</p>
+
+            <h3>Elif</h3>
+
+            <p>You can make your program make more than two decisions based on conditions more than one.</p>
+
+            <p>if (condition1):<br>
+            &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;code<br>
+            elif (condition2):<br>
+            &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;code<br>
+            elif (condition3):<br>
+            &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;code<br>
+            elif (condition4):<br>
+            &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;code<br>
+            Else:<br>
+            &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;code</p>
+
+            <code class="code">
+                a = 50<br>
+                b = 100<br>
+
+                if ( a ==  b):<br>
+                &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;print(‘a is equal to b’)<br>
+                elif (a > b):<br>
+                &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;print(‘a is bigger than b’)<br>
+                else:<br>
+                &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;print(‘a is smaller than b’)
+            </code>
+
+            <code class="output">>>‘a is smaller than b’</code>
+
+            <p>In the example above the interpreter first checks if a and b are equal and gets false as results, again it checks if a is bigger than b, and gets false again, so it finally executes the else block because all the other conditions are false.</p>
         </section>
 
         <section class="main-section" id="python_functions">
             <h2 class="section-heading">python functions</h2>
+
+            <p>Functions are an important part of any programming language. Function is a block of code which will only be executed when it is called. You can also pass data called parameters in to a function, so the function can manipulate the data. You can also create functions without any parameters.</p>
+
+            <h3>Declaring a function</h3>
+
+            <p>We declare a function as follows.</p>
+
+            <p>def functionName():<br>
+            &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;code</p>
+
+            <code class="code">
+                def sayHello():<br>
+                &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;print(‘Hello’)  
+            </code>
+
+            <h3>Calling a function</h3>
+
+            <p>We can call a function in python by mentioning it’s name followed by opening an closing parentheses.</p>
+
+            <p>functionName()</p>
+
+            <code class="code">ayHello()</code>
+
+            <code class="output">>>‘Hello’</code>
+
+            <h3>Parameters</h3>
+
+            <p>As mentioned earlier parameters are data passed to functions. You can pass one or more parameters to a function. They should be separated by commas.</p>
+
+            <p>def functionName(parameter):<br>
+            &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;code</p>
+
+            <code class="code">
+                def sayName(name):<br>
+                &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;print(‘Hello’,name)
+            </code>
+
+            <p>When you call a function with a parameter you should pass data to that function, otherwise you will get an error.</p>
+
+            <p>functionName(data)</p>
+
+            <code class="code">sayName(‘Victor’)</code>
+
+            <code class="output">>>‘Hello Victor’</code>
         </section>
 
         <section class="main-section" id="reference">
             <h2 class="section-heading">reference</h2>
+
+            <ul>
+                <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+                <li><a href="https://www.amazon.com/gp/product/B00R9JPDN4/ref=dbs_a_def_rwt_bibl_vppi_i7" target="_blank">Learn Python in One Day and Learn It Well: Python for Beginners with Hands-on Project. The only book you need to start coding in Python immediately by Jamie Chan</a></li>
+            </ul>
         </section>
 
     </main>
