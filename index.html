@@ -7,41 +7,63 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<div class="container">
+    <nav id="navbar">
+        <header id="navbar-header">Pythn Documentation</header>
+
+        <ul id="navbar-ul">
+            <li class="navbar-li"><a href="#intro" class="nav-link">intro</a></li>
+            <li class="navbar-li"><a href="#get_started" class="nav-link">get started</a></li>
+            <li class="navbar-li"><a href="#saving_python_files" class="nav-link">saving python files</a></li>
+            <li class="navbar-li"><a href="#executing_python_files" class="nav-link">executing python files</a></li>
+            <li class="navbar-li"><a href="#python_comments" class="nav-link">python comments</a></li>
+            <li class="navbar-li"><a href="#the_print_statement" class="nav-link">the print statement</a></li>
+            <li class="navbar-li"><a href="#python_variables" class="nav-link">python variables</a></li>
+            <li class="navbar-li"><a href="#python_data_types" class="nav-link">python data types</a></li>
+            <li class="navbar-li"><a href="#python_casting" class="nav-link">python casting</a></li>
+            <li class="navbar-li"><a href="#python_booleans" class="nav-link">python booleans</a></li>
+            <li class="navbar-li"><a href="#python_operators" class="nav-link">python operators</a></li>
+            <li class="navbar-li"><a href="#python_if_else" class="nav-link">python if else</a></li>
+            <li class="navbar-li"><a href="#python_functions" class="nav-link">python functions</a></li>
+            <li class="navbar-li"><a href="#reference" class="nav-link">reference</a></li>
+        </ul>
+    </nav>
+
     <main id="main-doc">
         <section class="main-section" id="intro">
-            <h2 class="section-heading">intro</h2>
+            <header class="section-heading">intro</header>
 
-            <p>Python is a general purpose programming language which was created by Guido Van Rossum. It is a high level programming language which resembles the English language.</p>
+            <p class="section-paragraph">Python is a general purpose programming language which was created by Guido Van Rossum. It is a high level programming language which resembles the English language.</p>
 
-            <p>Python is used to for desktop app development, web development, mobile app development and video game development. The use case of python doesn’t end there.</p>
+            <p class="section-paragraph">Python is used to for desktop app development, web development, mobile app development and video game development. The use case of python doesn’t end there.</p>
 
-            <p>It is also a cross platform language which means you can write code on one platform (Ex: Windows) and execute on another (Ex: Mac OS).</p>            
+            <p class="section-paragraph">It is also a cross platform language which means you can write code on one platform (Ex: Windows) and execute on another (Ex: Mac OS).</p>            
         </section>
 
         <section class="main-section" id="get_started">
-            <h2 class="section-heading">get started</h2>
+            <header class="section-heading">get started</header>
 
-            <p>In order to execute python programs in your computer you first have to install the python interpreter on your computer.</p>
+            <p class="section-paragraph">In order to execute python programs in your computer you first have to install the python interpreter on your computer.</p>
 
-            <p>You can test whether python is installed on your computer or not by typing the following code on your command line or terminal.</p>
+            <p class="section-paragraph">You can test whether python is installed on your computer or not by typing the following code on your command line or terminal.</p>
 
 
-            <p>For windows:</p>
+            <p class="section-paragraph">For windows:</p>
 
             <code class="terminal">\Users\Your Name>python --version</code>
 
-            <p>For Linux or Mac:</p>
+            <p class="section-paragraph">For Linux or Mac:</p>
 
             <code class="terminal">python --version</code>
 
 
-            <p>If python is not installed on your computer, go to the <a href="https://www.python.org" target="_blank">https://www.python.org</a> and download it install it first.</p>
+            <p class="section-paragraph">If python is not installed on your computer, go to the <a href="https://www.python.org" target="_blank">https://www.python.org</a> and download it install it first.</p>
         </section>
 
         <section class="main-section" id="saving_python_files">
-            <h2 class="section-heading">saving python files</h2>
+            <header class="section-heading">saving python files</header>
 
-            <p>Before we learn python syntax you should know how to save python files. Saving python files is not a hard task.</p>
+            <p class="section-paragraph">Before we learn python syntax you should know how to save python files. Saving python files is not a hard task.</p>
 
             <ol>
                 <li>First type your code in a text file. Whether on a normal text or code editor or the one that comes with the python interpreter.</li>
@@ -50,28 +72,28 @@
         </section>
 
         <section class="main-section" id="executing_python_files">
-            <h2 class="section-heading">executing python files</h2>
+            <header class="section-heading">executing python files</header>
 
-            <p>Once you have written the code, you have to execute it in order to see the results. You can execute your in the command line.</p>
+            <p class="section-paragraph">Once you have written the code, you have to execute it in order to see the results. You can execute your in the command line.</p>
 
-            <p>To run the python code type the following in your command line:</p>
+            <p class="section-paragraph">To run the python code type the following in your command line:</p>
 
             <code class="terminal">C:\Users\Your Name>python pythonFileName.py</code>
         </section>
 
         <section class="main-section" id="python_comments">
-            <h2 class="section-heading">python comments</h2>
+            <header class="section-heading">python comments</header>
 
-            <p>Comments are text which is ignored by the interpreter. Comments are commonly used by programmer for them selves or other programmers for later development.</p>
+            <p class="section-paragraph">Comments are text which is ignored by the interpreter. Comments are commonly used by programmer for them selves or other programmers for later development.</p>
 
-            <h3>Single line comments  </h3>
+            <h3 class="section-sub-heading">Single line comments  </h3>
 
             <ul>
                 <li>Single line comments starts with a ‘#’ symbol.</li>
                 <code class="code">#This is a single line comment</code>
             </ul>
             
-            <h3>Multiline comment</h3>
+            <h3 class="section-sub-heading">Multiline comment</h3>
 
             <ul>
                 <li>Multiline comments starts end with three singe quotes (‘) or double quotes (“).</li>
@@ -89,9 +111,9 @@
         </section>
 
         <section class="main-section" id="the_print_statement">
-            <h2 class="section-heading">the print statement</h2>
+            <header class="section-heading">the print statement</header>
 
-            <p>The print statement is used to display information to users. It accepts one or more parameters separated by commas.</p>
+            <p class="section-paragraph">The print statement is used to display information to users. It accepts one or more parameters separated by commas.</p>
 
             <code class="code">print(“Hello”,”world”)</code>
 
@@ -99,21 +121,21 @@
         </section>
 
         <section class="main-section" id="python_variables">
-            <h2 class="section-heading">python variables</h2>
+            <header class="section-heading">python variables</header>
 
-            <p>A variable is a name given data which can be used an manipulated by using that name.</p>
+            <p class="section-paragraph">A variable is a name given data which can be used an manipulated by using that name.</p>
 
-            <h3>Defining variables</h3>
+            <h3 class="section-sub-heading">Defining variables</h3>
 
-            <p>When defining variable you should give it a name and a value. In the following way:</p>
+            <p class="section-paragraph">When defining variable you should give it a name and a value. In the following way:</p>
 
-            <p>variableName = initialValue</p>
+            <p class="section-paragraph">variableName = initialValue</p>
 
             <code class="code">x = 34</code>
 
-            <h3>Naming Variable</h3>
+            <h3 class="section-sub-heading">Naming Variable</h3>
             
-            <p>When you name variables you should follow certain guidelines. The guidelines are mentioned below.</p> 
+            <p class="section-paragraph">When you name variables you should follow certain guidelines. The guidelines are mentioned below.</p> 
 
             <ul>
                 <li>Python variables names can only contain uppercase letters (A-Z), lowercase letters (a-z), numbers (0-9) and underscore (_).</li>
@@ -122,19 +144,19 @@
                 <li>Variable names are case sensitive.</li>
             </ul>
 
-            <p><strong>Naming convention -</strong> There are two common ways variable names are written in python.</p>
+            <p class="section-paragraph"><strong>Naming convention -</strong> There are two common ways variable names are written in python.</p>
 
             <ul>
                 <li>Snake case - words are separated by an underscore (_). Ex: variable_name</li>
                 <li>Camel case - every now word is started with a capital letter. Ex: variableName</li>
             </ul>
 
-            <h3>The assignment sign</h3>
+            <h3 class="section-sub-heading">The assignment sign</h3>
 
-            <p>The assignment sign (=) is know as the equal sign in the field of mathematics. As explained earlier when you define a variable a value must be assigned to it and some times you might want to change the value of a variable after it’s initiation. In both cases we use the assignment sign to assign a value to variables.</p>
+            <p class="section-paragraph">The assignment sign (=) is know as the equal sign in the field of mathematics. As explained earlier when you define a variable a value must be assigned to it and some times you might want to change the value of a variable after it’s initiation. In both cases we use the assignment sign to assign a value to variables.</p>
 
             
-            <p>Value on the right side of the assignment sign will be assign to the variable which is located in the left side of the assignment sign.</p>
+            <p class="section-paragraph">Value on the right side of the assignment sign will be assign to the variable which is located in the left side of the assignment sign.</p>
 
             <code class="code">X = 56</code>
             <code class="code">Y = 37</code>
@@ -142,46 +164,46 @@
         </section>
         
         <section class="main-section" id="python_data_types">
-            <h2 class="section-heading">python data types</h2>
+            <header class="section-heading">python data types</header>
 
-            <p>Data type is an important concept to understand in programming. In python there are different data types. You can assign values of any data type to variables.</p>
+            <p class="section-paragraph">Data type is an important concept to understand in programming. In python there are different data types. You can assign values of any data type to variables.</p>
 
-            <h3>String</h3>
+            <h3 class="section-sub-heading">String</h3>
 
-            <p>String data type refers to plain text. String values are surrounded by either single or double quotes.</p>
+            <p class="section-paragraph">String data type refers to plain text. String values are surrounded by either single or double quotes.</p>
 
             <code class="code">x = “Hello world”</code>
             <code class="code">name = ‘peter’</code>
             
             
-            <h3>Integer</h3>
+            <h3 class="section-sub-heading">Integer</h3>
 
-            <p>Integer is number data types. Numbers of this data type don’t have decimal points.</p>
+            <p class="section-paragraph">Integer is number data types. Numbers of this data type don’t have decimal points.</p>
             
             <code class="code">x = 6</code>
             <code class="code">y = -7</code>
 
             
-            <h3>Float</h3>
+            <h3 class="section-sub-heading">Float</h3>
 
-            <p>Float numbers have decimal points.</p>
+            <p class="section-paragraph">Float numbers have decimal points.</p>
             
             <code class="code">x = 3.5</code>
             <code class="code">y = -9.34</code>
 
             
             
-            <h3>List</h3>
+            <h3 class="section-sub-heading">List</h3>
             
-            <p>List allow us to assign more than one value to a single variable. Using square brackets ([ ]). You can assign values of different data types to a list.</p>
+            <p class="section-paragraph">List allow us to assign more than one value to a single variable. Using square brackets ([ ]). You can assign values of different data types to a list.</p>
             
             <code class="code">x = [4, 8.32, “Home”]</code>            
             
-            <p>In addition you can also declare an empty list.</p>            
+            <p class="section-paragraph">In addition you can also declare an empty list.</p>            
             
             <code class="code">y = []</code>
              
-            <p>You can access the values of the list using their index number. Index numbers starts from zero.</p>
+            <p class="section-paragraph">You can access the values of the list using their index number. Index numbers starts from zero.</p>
             
             <code class="code">x = [4, 8.32, “Home”]</code>
             <code class="code">x[0]</code>
@@ -189,45 +211,45 @@
             <code class="code">x[2]</code>
             <code class="output">>>"Home"</code>
             
-            <p>You can replace an old value in a list with a new one. You can do this by referring to the value using it’s index and assigning a new value.</p>
+            <p class="section-paragraph">You can replace an old value in a list with a new one. You can do this by referring to the value using it’s index and assigning a new value.</p>
             
             <code class="code">x = [4, 8.32, “Home”]</code>
             <code class="code">x[1] = “New”</code>
             <code class="code">print(x)</code>
             <code class="output">>>[4,”New”,”Home”]</code> 
 
-            <h3>Tuples</h3>
+            <h3 class="section-sub-heading">Tuples</h3>
 
-            <p>Like lists you can store one or more values in it. The main difference are they use round brackets ( () ) instead of square brackets ([]) and they are unchangeable, you are stuck with the initial values.</p>
+            <p class="section-paragraph">Like lists you can store one or more values in it. The main difference are they use round brackets ( () ) instead of square brackets ([]) and they are unchangeable, you are stuck with the initial values.</p>
             
             <code class="code">daysOfTheWeek = (‘Monday’, ‘Tuesday’, ‘Wednesday’, ‘Thursday’, ‘Friday’, ‘Saturday’, ‘Sunday’)</code>
 
-            <p>You can access the tuple items using their index just like we did with the list.</p>
+            <p class="section-paragraph">You can access the tuple items using their index just like we did with the list.</p>
             
             <code class="code">daysOfTheWeek[3]</code>
             <code class="output">>>‘Thursday’ </code>
             
 
-            <h3>Dictionaries</h3>
+            <h3 class="section-sub-heading">Dictionaries</h3>
 
-            <p>Dictionary is another data collections in python. But it unlike list and tuple the data are stored using a key, value pair. Dictionaries are written with curly brackets ({}).</p>
+            <p class="section-paragraph">Dictionary is another data collections in python. But it unlike list and tuple the data are stored using a key, value pair. Dictionaries are written with curly brackets ({}).</p>
 
             <code class="code"></code>
             
-            <p>dictName = {key1 : value1, key2 : value2, …….}</p>            
+            <p class="section-paragraph">dictName = {key1 : value1, key2 : value2, …….}</p>            
             
             <code class="code">person1 = {“name” :”Kevin”, “age”: 34,” dob” : 1986}</code>
             
-            <p>You can access dictionary values by using their names within a square bracket.</p>
+            <p class="section-paragraph">You can access dictionary values by using their names within a square bracket.</p>
             
             <code class="code">Person1[“dob”]</code>
             <code class="output">>>1986</code>
         </section>
 
         <section class="main-section" id="python_casting">
-            <h2 class="section-heading">python casting</h2>
+            <header class="section-heading">python casting</header>
 
-            <p>In python you can change a value from one data type to another this process is called type casting. This is done by using the following functions.</p>
+            <p class="section-paragraph">In python you can change a value from one data type to another this process is called type casting. This is done by using the following functions.</p>
 
             <ul>
                 <li>int()</li>
@@ -236,9 +258,9 @@
             </ul>
             
 
-            <h3>int()</h3>
+            <h3 class="section-sub-heading">int()</h3>
 
-            <p>This function turns a float (by rounding it down to the closest integer) or a string (if the string represent an integer or a float) in to integer.</p>
+            <p class="section-paragraph">This function turns a float (by rounding it down to the closest integer) or a string (if the string represent an integer or a float) in to integer.</p>
             
             <code class="code">int(2.7)</code>
             <code class="output">>>2</code>
@@ -246,9 +268,9 @@
             <code class="output">>>3</code>
             
 
-            <h3>float()</h3>
+            <h3 class="section-sub-heading">float()</h3>
 
-            <p>This turns an integers or a string (if the string represent an integer or a float) in to float.</p>
+            <p class="section-paragraph">This turns an integers or a string (if the string represent an integer or a float) in to float.</p>
             
             <code class="code">float(3)</code>
             <code class="output">>>3.0</code>
@@ -257,9 +279,9 @@
              
             
             
-            <h3>str()</h3>
+            <h3 class="section-sub-heading">str()</h3>
 
-            <p>This turns an integer or a float in to string.</p>
+            <p class="section-paragraph">This turns an integer or a float in to string.</p>
             
             <code class="code">str(3)</code>
             <code class="output">>>“3”</code>
@@ -268,21 +290,21 @@
         </section>
 
         <section class="main-section" id="python_booleans">
-            <h2 class="section-heading">python booleans</h2>
+            <header class="section-heading">python booleans</header>
 
-            <p>Boolean means either True or False value. Even though they look simple, they are important to many operations in python such as conditions and loops which we will explore later.</p>
+            <p class="section-paragraph">Boolean means either True or False value. Even though they look simple, they are important to many operations in python such as conditions and loops which we will explore later.</p>
 
-            <p>Many values are True by default. Any value that has a content in it is a True value. There are a few exceptions: Empty string, the number “0”, empty list, empty tuple and empty dictionary are False values.</p>
+            <p class="section-paragraph">Many values are True by default. Any value that has a content in it is a True value. There are a few exceptions: Empty string, the number “0”, empty list, empty tuple and empty dictionary are False values.</p>
         </section>
 
         <section class="main-section" id="python_operators">
-            <h2 class="section-heading">python operators</h2>
+            <header class="section-heading">python operators</header>
 
-            <p>Python comes with many operators perform operations on variables and values. They can be categorized in to several groups. We will look in to only three different groups of operators in this documentation.</p>
+            <p class="section-paragraph">Python comes with many operators perform operations on variables and values. They can be categorized in to several groups. We will look in to only three different groups of operators in this documentation.</p>
 
-            <h3>Python arithmetic operators</h3>
+            <h3 class="section-sub-heading">Python arithmetic operators</h3>
 
-            <p>Arithmetic operators are used to perform arithmetic operation on values and variables.</p>
+            <p class="section-paragraph">Arithmetic operators are used to perform arithmetic operation on values and variables.</p>
 
             <table>
                 <tr>
@@ -328,9 +350,9 @@
                 </tr>
             </table>
 
-            <h3>Python assignment operators</h3>
+            <h3 class="section-sub-heading">Python assignment operators</h3>
 
-            <p>Assignment operators are used to assign values to variables.</p>
+            <p class="section-paragraph">Assignment operators are used to assign values to variables.</p>
 
             <table>
                 <tr>
@@ -381,9 +403,9 @@
                 </tr>
             </table>
 
-            <h3>Python comparison operators</h3>
+            <h3 class="section-sub-heading">Python comparison operators</h3>
 
-            <p>Comparison operators are used to compare two values or variables. When you compare two values or variables you will get ‘True’ or ‘False’ as result.</p>
+            <p class="section-paragraph">Comparison operators are used to compare two values or variables. When you compare two values or variables you will get ‘True’ or ‘False’ as result.</p>
 
             <table>
                 <tr>
@@ -428,11 +450,11 @@
         </section>
 
         <section class="main-section" id="python_if_else">
-            <h2 class="section-heading">python if else</h2>
+            <header class="section-heading">python if else</header>
 
-            <p>If statement allow your program to make decisions based on one or more conditions. If statement use the following structure.</p>
+            <p class="section-paragraph">If statement allow your program to make decisions based on one or more conditions. If statement use the following structure.</p>
 
-            <p>if (condition):<br>
+            <p class="section-paragraph">if (condition):<br>
             &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;code</p>
 
             <code class="code">
@@ -445,15 +467,15 @@
 
             <code class="output">>>‘b is bigger than a’</code>
 
-            <p>We get the output because our condition is true. We would not have gotten any out put if it was not true. </p>
+            <p class="section-paragraph">We get the output because our condition is true. We would not have gotten any out put if it was not true. </p>
 
-            <p>If you notice the explanation above the code is indented. Indentation is how you start a code block in python as we have done above, we have started an if block. </p>
+            <p class="section-paragraph">If you notice the explanation above the code is indented. Indentation is how you start a code block in python as we have done above, we have started an if block. </p>
 
-            <h3>Else</h3>
+            <h3 class="section-sub-heading">Else</h3>
 
-            <p>We can also make our program execute a block of code if our condition is false. We us the keyword ‘else’ for it.</p>
+            <p class="section-paragraph">We can also make our program execute a block of code if our condition is false. We us the keyword ‘else’ for it.</p>
 
-            <p>if (contition):<br>
+            <p class="section-paragraph">if (contition):<br>
             &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;Code<br>
             else:<br>
             &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;Code</p>
@@ -470,13 +492,13 @@
 
             <code class="output">>> ‘a is bigger than b’</code>
 
-            <p>In this example the program evaluated the condition to be false so it executed the code in the else block.</p>
+            <p class="section-paragraph">In this example the program evaluated the condition to be false so it executed the code in the else block.</p>
 
-            <h3>Elif</h3>
+            <h3 class="section-sub-heading">Elif</h3>
 
-            <p>You can make your program make more than two decisions based on conditions more than one.</p>
+            <p class="section-paragraph">You can make your program make more than two decisions based on conditions more than one.</p>
 
-            <p>if (condition1):<br>
+            <p class="section-paragraph">if (condition1):<br>
             &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;code<br>
             elif (condition2):<br>
             &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;code<br>
@@ -501,19 +523,19 @@
 
             <code class="output">>>‘a is smaller than b’</code>
 
-            <p>In the example above the interpreter first checks if a and b are equal and gets false as results, again it checks if a is bigger than b, and gets false again, so it finally executes the else block because all the other conditions are false.</p>
+            <p class="section-paragraph">In the example above the interpreter first checks if a and b are equal and gets false as results, again it checks if a is bigger than b, and gets false again, so it finally executes the else block because all the other conditions are false.</p>
         </section>
 
         <section class="main-section" id="python_functions">
-            <h2 class="section-heading">python functions</h2>
+            <header class="section-heading">python functions</header>
 
-            <p>Functions are an important part of any programming language. Function is a block of code which will only be executed when it is called. You can also pass data called parameters in to a function, so the function can manipulate the data. You can also create functions without any parameters.</p>
+            <p class="section-paragraph">Functions are an important part of any programming language. Function is a block of code which will only be executed when it is called. You can also pass data called parameters in to a function, so the function can manipulate the data. You can also create functions without any parameters.</p>
 
-            <h3>Declaring a function</h3>
+            <h3 class="section-sub-heading">Declaring a function</h3>
 
-            <p>We declare a function as follows.</p>
+            <p class="section-paragraph">We declare a function as follows.</p>
 
-            <p>def functionName():<br>
+            <p class="section-paragraph">def functionName():<br>
             &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;code</p>
 
             <code class="code">
@@ -521,21 +543,21 @@
                 &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;print(‘Hello’)  
             </code>
 
-            <h3>Calling a function</h3>
+            <h3 class="section-sub-heading">Calling a function</h3>
 
-            <p>We can call a function in python by mentioning it’s name followed by opening an closing parentheses.</p>
+            <p class="section-paragraph">We can call a function in python by mentioning it’s name followed by opening an closing parentheses.</p>
 
-            <p>functionName()</p>
+            <p class="section-paragraph">functionName()</p>
 
-            <code class="code">ayHello()</code>
+            <code class="code">sayHello()</code>
 
             <code class="output">>>‘Hello’</code>
 
-            <h3>Parameters</h3>
+            <h3 class="section-sub-heading">Parameters</h3>
 
-            <p>As mentioned earlier parameters are data passed to functions. You can pass one or more parameters to a function. They should be separated by commas.</p>
+            <p class="section-paragraph">As mentioned earlier parameters are data passed to functions. You can pass one or more parameters to a function. They should be separated by commas.</p>
 
-            <p>def functionName(parameter):<br>
+            <p class="section-paragraph">def functionName(parameter):<br>
             &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;code</p>
 
             <code class="code">
@@ -543,9 +565,9 @@
                 &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;print(‘Hello’,name)
             </code>
 
-            <p>When you call a function with a parameter you should pass data to that function, otherwise you will get an error.</p>
+            <p class="section-paragraph">When you call a function with a parameter you should pass data to that function, otherwise you will get an error.</p>
 
-            <p>functionName(data)</p>
+            <p class="section-paragraph">functionName(data)</p>
 
             <code class="code">sayName(‘Victor’)</code>
 
@@ -553,7 +575,7 @@
         </section>
 
         <section class="main-section" id="reference">
-            <h2 class="section-heading">reference</h2>
+            <header class="section-heading">reference</header>
 
             <ul>
                 <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
@@ -562,6 +584,6 @@
         </section>
 
     </main>
-    
+</div>    
 </body>
 </html>
